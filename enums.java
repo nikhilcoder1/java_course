@@ -15,7 +15,7 @@ public class enums
     	Status s2= Status.Success;
 
     	System.out.println(s);
-    	System.out.println(s.ordinal());
+    	System.out.println(s1.ordinal());
 
         Status[] ss=Status.values();
         System.out.println(ss);
