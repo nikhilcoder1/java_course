@@ -14,7 +14,7 @@ public class Exception_basic_code
         }
         catch(Exception e) // "e" is an object of Exception class
         {
-            // System.out.println("Something went wrong"+ e); // this will print the error as well
+             System.out.println("Something went wrong"+ e); // this will print the error as well
             System.out.println("Something went wrong");
         }
         System.out.println(j);

@@ -16,7 +16,7 @@ class d
 //    	}
 //    	catch(ClassNotFoundException e)
 //    	{
-//    		System.out.println("Not able to find theh class");
+//    		System.out.println("Not able to find the class");
 //    	}
 
         Class.forName("Calc");

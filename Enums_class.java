@@ -1,4 +1,5 @@
-enum Laptops{
+enum Laptops
+{
     //	Mackbook(2000), XPS(2200), Surface(1500), ThinkPad(1800);
     Mackbook(2000), XPS(2200), Surface, ThinkPad(1800);
 

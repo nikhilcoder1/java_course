@@ -1,5 +1,7 @@
-public class Exception_multiple_catch {
-    public static void main(String[] args) {
+public class Exception_multiple_catch
+{
+    public static void main(String[] args)
+    {
         int i=2;
         //  	int i=0;
         int j=0;
@@ -15,9 +17,9 @@ public class Exception_multiple_catch {
         try
         {
             j=18/i;
-            System.out.println(str.length());
             System.out.println(nums[1]);
             System.out.println(nums[5]);
+            System.out.println(str.length());
         }
 //    	catch(Exception e)
 //    	{
@@ -34,7 +36,7 @@ public class Exception_multiple_catch {
         }
         catch(Exception e)
         {
-            System.out.println("Something went wrong."+e);
+            System.out.println("Something went wrong.");
         }
 
         System.out.println(j);
