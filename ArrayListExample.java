@@ -1,3 +1,5 @@
+//Collection work with objects not primitive values
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -9,6 +11,7 @@ public class ArrayListExample
 
 //    	Collection<Integer> nums= new ArrayList<Integer>();
 //  	Collection nums=new ArrayList();
+
         // Using list bcz it supports index values
         List<Integer> nums=new ArrayList<Integer>();
         nums.add(6);
@@ -21,14 +24,14 @@ public class ArrayListExample
 
         System.out.println(nums.indexOf(2));
 
-//    	for(int n:nums)
-//    	{
-//    		System.out.println(nums);
-//    	}
-        for(Object n:nums)
-        {
-            int num=(Integer)n;
-            System.out.println(nums);
-        }
+    	for(int n:nums)
+    	{
+    		System.out.println(nums);
+    	}
+//        for(Object n:nums)
+//        {
+//            int num=(Integer)n;
+//            System.out.println(nums);
+//        }
     }
 }
